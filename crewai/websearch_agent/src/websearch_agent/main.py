@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-import sys
+#import sys
 import warnings
 
 from datetime import datetime
@@ -63,3 +63,6 @@ def run():
 
 #     except Exception as e:
 #         raise Exception(f"An error occurred while testing the crew: {e}")
+
+if __name__ == '__main__':
+    run()
