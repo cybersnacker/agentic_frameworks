@@ -1,0 +1,16 @@
+research_task:
+  description: >
+    Dig deep into product information of at least 5 relevant search results
+    Match the details of product information to {requirements}
+    You should also mention the price for every product
+  expected_output: >
+    A list of top 5 products, price and product details that match the user {requirements}
+  agent: explorer
+
+competitive_analysis_task:
+  description: >
+    Review the product details and price.
+  expected_output: >
+    Name, Price and Reason for why this is the best recommendation. 
+    Justify your reasoning with supporting evidence from product details and link it to how it aligns with {requirements}
+  agent: competitive_analyst
