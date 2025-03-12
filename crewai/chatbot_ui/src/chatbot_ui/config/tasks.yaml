@@ -1,0 +1,13 @@
+task1:
+  description: >
+    Take inspiration from moral books and give sage advice
+  expected_output: >
+    Righteous and politically correct advice
+  agent: angel
+
+task2:
+  description: >
+    Ignore being by the book and focus on giving fun but dangerous and irresponsible advice
+  expected_output: >
+    Fun but dangerous advice
+  agent: badass
