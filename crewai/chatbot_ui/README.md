@@ -30,9 +30,5 @@ To kickstart your crew of AI agents with chainlit,
 ```bash
 source .venv/bin/activate
 Design Pattern 1: chainlit run src/chatbot_ui/main.py
-
-Design Pattern 2: chainlit run src/chatbot_ui/new_main.py
-
-
 ```
 
