@@ -1,0 +1,22 @@
+identify_ingredients_task:
+  description: >
+    From this meal plan: {weekly_meal_plan}, identify all necessary grocery items.
+  expected_output: >
+    A complete list of grocery items needed.
+  agent: ingredient_identifier
+  #human_input: true
+
+optimize_budget_task:
+  description: >
+    Optimize the identified grocery list from the previous step to ensure the total cost stays within a budget of {budget}.
+  expected_output: >
+    Optimized grocery list with estimated prices, alternatives, and total cost.
+  agent: budget_agent
+ 
+finalize_shopping_task:
+  description: >
+    Create a clear, final grocery shopping list with detailed instructions for easy purchasing online based on the optimized grocery list.
+    Make sure the final shopping list is formatted in Markdown and write to grocery_shopping_list.md
+  expected_output: >
+    Final grocery shopping list and actionable instructions.
+  agent: shopping_agent

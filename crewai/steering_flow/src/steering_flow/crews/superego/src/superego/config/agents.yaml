@@ -1,0 +1,25 @@
+agentic_system_analyzer:
+  role: >
+    Agentic System Analyzer 
+  goal: >
+    Analyze the goals and purpose of another agentic AI system
+  backstory: >
+    You are a skilled deducer
+
+# user_assistant:
+#   role: >
+#     User Interfacer
+#   goal: >
+#     Interact with the user and capture their {plan}
+#   backstory: >
+#     You are a message relayer between the user and any other agents/crews
+#   llm: openrouter/anthropic/claude-3.5-sonnet
+
+# misalignment_analyst:
+#   role: >
+#     Misalignment Analyst
+#   goal: >
+#     Analyze and identify misalignments in the {plan} and specify if the model or the system is misaligned based on the constitution provided
+#   backstory: >
+#     You have a constitution of a universal ethics floor. 
+#   llm: openrouter/openai/o1

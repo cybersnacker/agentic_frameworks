@@ -1,0 +1,25 @@
+analyze_agentic_system_task:
+  description: >
+    Read the information for the {agentic_goals} and {task_descriptions}. 
+    Provide an analysis of the goal and purpose of the agentic system
+  expected_output: >
+    Specify two bullet points on the overall goal of the system and what it has agency over
+  agent: agentic_system_analyzer
+
+# user_assistant_task:
+#   description: >
+#     Ask the user for their plan
+#   expected_output: >
+#     Please enter your plan: {plan}
+#   agent: user_assistant
+#   human_input: true
+
+# misalignment_analysis_task:
+#   description: >
+#     Review the context you get and check against the constitution that you have access to. Identify potential harm and state your thought process.
+#   expected_output: >
+#     If you don't see harm, tell "PROCEED" 
+#     If you see harm, tell "DO NOT PROCEED"
+#     If you are unsure, tell "UNSURE, PROCEED WITH CAUTION" 
+#     Reason: <Add your thought process here>
+#   agent: misalignment_analyst

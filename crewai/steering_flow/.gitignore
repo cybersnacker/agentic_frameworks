@@ -1,0 +1,9 @@
+.env
+__pycache__/
+.venv
+.python-version
+.DS_Store
+*.pkl
+*.txt
+*.html
+.ruff_cache

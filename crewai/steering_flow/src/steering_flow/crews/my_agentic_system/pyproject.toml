@@ -1,0 +1,25 @@
+[project]
+name = "my_agentic_system"
+version = "0.1.0"
+description = "my_agentic_system using crewAI"
+authors = [{ name = "Your Name", email = "you@example.com" }]
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "crewai[tools]>=0.105.0,<1.0.0",
+    "langchain>=0.3.20",
+    "langchain-community>=0.3.19",
+]
+
+[project.scripts]
+my_agentic_system = "my_agentic_system.main:run"
+run_crew = "my_agentic_system.main:run"
+train = "my_agentic_system.main:train"
+replay = "my_agentic_system.main:replay"
+test = "my_agentic_system.main:test"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.crewai]
+type = "crew"
